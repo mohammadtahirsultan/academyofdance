@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #103f02
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+
+}
+
+.myInput {
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+    border: 2px solid rgb(224, 142, 142);
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-family: cursive;
+    background-color: #f15555;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    transition: .3s ease-in;
+
+}
+
+.btn:hover {
+    font-weight: 900;
+    font-size: 1.5rem;
+    background-color: #a0e78a;
+    color: black;
+    border: 3px solid rgb(247, 165, 165);
+}
